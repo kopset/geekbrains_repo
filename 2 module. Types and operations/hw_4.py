@@ -3,11 +3,6 @@
 # Если в слово длинное, выводить только первые 10 букв в слове.
 
 word = input("Введите строку из нескольких слов:")
-#print(ord(" "))
-#print(chr(0))
-#if chr=0 or chr=32:
-#print(word[:10:chr(32)])
-#print(list(word[1:10:]))
 i=0
 l1=word.split()
 for w in l1:
