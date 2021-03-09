@@ -65,7 +65,6 @@ class Car:
 class TownCar(Car):
 
     def show_speed(self):
-        super().show_speed()
         if self.speed>60:
             print("Your driving speed is too hight! Please, drive some slowly.\n"
                   "May be you know but your maximum speed is 60 km/h")
@@ -77,7 +76,6 @@ class SportCar(Car):
 
 class WorkCar(Car):
     def show_speed(self):
-        super().show_speed()
         if self.speed > 60:
             print("Your driving speed is too hight! Please, drive some slowly.\n"
                   "May be you know, but your maximum speed is 40 km/h")
