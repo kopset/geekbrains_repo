@@ -8,7 +8,7 @@ a3 = int(input("Введите третье число"))
 def my_func(a1, a2, a3):
     s = [a1, a2, a3]
     m = min(s)
-    my_func=a1+a2+a3-m
+    my_func=sum(s)-m
     return my_func
 
 print(my_func(a1,a2,a3))

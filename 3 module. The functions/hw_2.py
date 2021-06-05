@@ -11,6 +11,6 @@ email =str(input("Введите Ваш email"))
 Phone = str(input("Введите Ваш номер телефона"))
 
 def about(Name,Surname,Birthday,YourTown,email,Phone):
-    return Name+Surname+Birthday+YourTown+email+Phone
+    return (" ".join([Name,Surname,Birthday,YourTown,email,Phone]))
 
 print(about(Name,Surname,Birthday,YourTown,email,Phone))
